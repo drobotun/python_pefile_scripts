@@ -20,11 +20,11 @@ try:
 except IndexError:
     print('Не указан файл.')
     sys.exit(0)
+try:
+    pe = pefile.PE(file_path)
 except FileNotFoundError:
     print('Не удается найти указанный файл:', sys.argv[1])
     sys.exit(0)
-try:
-    pe = pefile.PE(file_path)
 except pefile.PEFormatError:
     print('Файл', sys.argv[1], 'не является PE файлом Windows.')
     sys.exit(0)
