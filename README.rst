@@ -1,17 +1,17 @@
 .. image:: https://i.imgur.com/JtZ54GZ.png
-    :target: https://xakep.ru/2020/01/09/virustotal-api/#xakepcut
+    :target: https://xakep.ru/2020/07/07/malware-analysis/
 
 Python-скрипты для проведения базового статического анализа PE-файлов.
 ======================================================================
 
 Состав:
 
-- get_compilations_time.py - выводит временную метку компиляции PE-файла;
-- get_delphi_compilations_time.py - выводит временную метку компиляции PE-файла, скомпилированного компилятором Delphi;
-- get_debug_compilations_time.py - выводит временную метку компиляции PE-файла на основе времени создания таблицы Debug Directory;
-- get_section_info.py - выводит информацию о секциях PE-файла;
-- get_import_info.py - выводит информацию о таблице импорта PE-файла;
-- get_export_info.py - выводит информацию о таблице экспорта PE-файла;
-- get_rich_info.py - выводит информацию о Rich-сигнатуре PE-файла;
-- get_virustotal_info.py - отправляет хэш файла на проверку в VirusTotal;
-- is_exe.py - проверяет наличие в файле признаков принадлежности к PE-файлам.
+- **get_compilations_time.py** - выводит временную метку компиляции PE-файла;
+- **get_delphi_compilations_time.py** - выводит временную метку компиляции PE-файла, скомпилированного компилятором Delphi;
+- **get_debug_compilations_time.py** - выводит временную метку компиляции PE-файла на основе времени создания таблицы Debug Directory;
+- **get_section_info.py** - выводит информацию о секциях PE-файла;
+- **get_import_info.py** - выводит информацию о таблице импорта PE-файла;
+- **get_export_info.py** - выводит информацию о таблице экспорта PE-файла;
+- **get_rich_info.py** - выводит информацию о Rich-сигнатуре PE-файла;
+- **get_virustotal_info.py** - отправляет хэш файла на проверку в VirusTotal;
+- **is_exe.py** - проверяет наличие в файле признаков принадлежности к PE-файлам.
